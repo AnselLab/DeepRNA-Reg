@@ -1,9 +1,9 @@
 
-<img src="logo.png" width="600" />
+<p style="text-align:center;"><img src="logo.png" width="750" /></p>
 
 <hr />
-*by Shaan Sekhon*
 
+**by Shaan Sekhon**
 
 
 ## Overview
