@@ -1,4 +1,7 @@
-# DeepRNAreg
+
+<img src="logo.png" width="600" />
+
+<hr />
 *by Shaan Sekhon*
 
 
