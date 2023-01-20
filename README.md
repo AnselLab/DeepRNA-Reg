@@ -4,7 +4,7 @@
 
 
 ## Overview
-DeepRNAreg is an exciting new tool for comparative CLIP-Seq analysis. DeepRNAreg levrages recent advances in the field of deep learning to provide a robust method for the elucidation of differential RNA-Binding-protein activity. 
+DeepRNAreg is an exciting new tool for comparative CLIP-Seq analysis. DeepRNAreg leverages recent advances in the field of deep learning to provide a robust method for the elucidation of differential RNA-Binding-protein activity.
 
 
 ## Initial Setup/Prerequisites
@@ -12,7 +12,8 @@ DeepRNAreg is an exciting new tool for comparative CLIP-Seq analysis. DeepRNAreg
 Before attempting to execute DeepRNAreg on your processed sequencing data, please first ensure that you have the following three sets of software libraries installed on your device. DeepRNAreg runs best on machines running either linux or MacOS. If you have a Windows PC, virtualization is suggested because this software utilizes multi-core processing that is not yet compatible with windows computers.  
 
 ###1. Samtools
-First, pleasue ensure that you have samtools installed and executable via the command line. See here: https://www.htslib.org/download/. 
+
+First, please ensure that you have samtools installed and executable via the command line. See here: https://www.htslib.org/download/. 
 
 
 ###2. Keras and Tensorflow Python Modules
@@ -59,7 +60,7 @@ Upon successful completion of the algorithm, the folling message will be display
 'DeepRNAreg ran successfully! Output saved to enriched-cond1.csv and enriched-cond2.csv.'
 ## Help
 
-If you run into any issues running DeepRNAreg, please post an 'isssue' under the issues tab of github.
+If you run into any issues running DeepRNAreg, please post an 'issue' under the issues tab of github.
 
 ## Authors
 
