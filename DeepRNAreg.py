@@ -283,13 +283,13 @@ if __name__ == "__main__":
     print(f"{bcolors.ENDC}Running Analysis...")
     
     
-    loci = np.loadtxt(bed_filename, usecols=range(6),dtype=str)[:3000]
+    loci = np.loadtxt(bed_filename, usecols=range(6),dtype=str)
     
 
     print((f"{bcolors.OKBLUE}Number of CPU Cores Detected: #num{bcolors.ENDC}").replace('#num', str(multiprocess.cpu_count())))
     start_time = time.time()
     with Pool(processes=multiprocess.cpu_count(),maxtasksperchild=20) as pool:
-        results = pool.map(DEEP_CLIP, np.asarray(np.array_split(loci, multiprocess.cpu_count())))
+        results = pool.map(DEEP_CLIP, np.array_split(loci, multiprocess.cpu_count()) )
     stop_time = time.time()
 
 
